@@ -5,6 +5,8 @@
 using namespace std;
 
 int main() {
+    
+    // array of characters
     char str1[10] = "Hello";
     char str2[10] = "World";
     char str3[10];
