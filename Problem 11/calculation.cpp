@@ -14,7 +14,7 @@ int main() {
     cin >> num2;
 
     result = sqrt(num1 - num2);
+    cout << "sqrt(" << num1 << " - " << num2 << ") = " << result << endl;
 
-    cout << "Result: " << result << endl;
     return 0;
 }
