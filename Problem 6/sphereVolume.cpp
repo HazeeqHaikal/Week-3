@@ -1,4 +1,7 @@
 #include <cmath>
+// input output manipulation
+#include <iomanip>
+// input output stream
 #include <iostream>
 #include <string>
 
@@ -23,7 +26,7 @@ int main() {
 
     volume = (4.0 / 3.0) * PI * pow(radius, 3);
 
-    cout << fixed << "The volume of the sphere is " << volume << endl;
+    cout << setprecision(5) << fixed << "The volume of the sphere is " << volume << endl;
 
     return 0;
 }
