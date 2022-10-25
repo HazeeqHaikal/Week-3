@@ -1,15 +1,14 @@
-#include <iostream>
-#include <string>
 #include <cmath>
+#include <iostream>
+#include <iomanip>
 
 using namespace std;
 
 int main() {
-
     int degree = 90;
     // sine of 90 degree
-    cout << "Sine of " << degree << " degree is " << sin(degree * 3.14159 / 180) << endl;
+    cout << fixed << setprecision(2);
+    cout << "Sin(" << degree << ") = " << sin(degree) << endl;
 
     return 0;
-
 }
