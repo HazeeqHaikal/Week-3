@@ -3,8 +3,9 @@
 
 using namespace std;
 
+const float tax_rate = 0.06;
+
 int main() {
-    float tax_rate = 0.06;
     float total, total_after_tax;
 
     cout << "Enter the total: ";
